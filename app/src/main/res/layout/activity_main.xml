@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal"
+        android:background="@color/titleBar"
+        >
+
+        <ImageView
+            android:id="@+id/menu_img"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dip"
+            android:background="@drawable/menu"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="18dip"
+            android:text="@string/appName" />
+
+    </RelativeLayout>
+
+
+        <com.bn.hk.humananatomy.inteface.Carousel
+            android:id="@+id/carousel"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <com.bn.hk.humananatomy.inteface.SegmentControl
+        android:id="@+id/segment_control"
+        android:layout_width="335dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:textSize="13sp"
+        app:cornerRadius="5dip"
+        app:horizonGap="8dip"
+        app:normalColor="#FFFFFF"
+        app:selectedColor="#0099CC"
+        app:texts="系统解剖|局部解剖"
+        app:verticalGap="8dip" />
+</RelativeLayout>
+
+    <com.bn.hk.humananatomy.inteface.ItemList
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.bn.hk.humananatomy.inteface.ItemList>
+
+
+</LinearLayout>

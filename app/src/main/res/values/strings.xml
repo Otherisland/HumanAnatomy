@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">解剖学3D辅助学习系统</string>
+    <string name="xt_ganjueqi">感觉系统</string>
+    <string name="xt_neizang">内脏学</string>
+    <string name="xt_neifenmi">内分泌系统</string>
+    <string name="xt_guanjie">运动系统</string>
+    <string name="xt_maiguan">脉管系统</string>
+    <string name="xt_shenjing">神经系统</string>
+    <string name="bf_toubu">头部</string>
+    <string name="bf_jingbu">颈部</string>
+    <string name="bf_xiongbu">胸部</string>
+    <string name="bf_fubu">腹部</string>
+    <string name="bf_penbu">盆部</string>
+    <string name="bf_jizhuqu">脊柱区</string>
+    <string name="bf_shangzhi">上肢</string>
+    <string name="bf_xiazhi">下肢</string>
+    <string name="string_system">系统解剖</string>
+    <string name="string_part">局部解剖</string>
+    <string name="gj_guanjiexue">关节学</string>
+    <string name="gj_guxue">骨学</string>
+    <string name="gj_jixue">肌学</string>
+    <string name="nz_huxi">呼吸系统</string>
+    <string name="nz_xiaohua">消化系统</string>
+    <string name="nz_miniao">泌尿系统</string>
+    <string name="mg_xinxueguan">心血管系统</string>
+    <string name="mg_linba">淋巴系统</string>
+    <string name="gjq_shiqi">视器</string>
+    <string name="gjq_qtwq">前庭蜗器(耳)</string>
+    <string name="sj_zwsj">周围神经系统</string>
+    <string name="sj_zssj">中枢神经</string>
+    <string name="sj_nhjs">脑和脊髓</string>
+    <string name="nfm_chuiti">垂体</string>
+    <string name="nfm_jiazhuangxian">甲状腺</string>
+    <string name="nfm_shenshangxian">肾上腺</string>
+
+    <string name="appName">解剖学3D辅助学习系统</string>
+    <string name="usercenter">个人中心</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_center">CenterActivity</string>
+</resources>
